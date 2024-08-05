@@ -6,7 +6,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 
 //textures
 const textureLoader = new THREE.TextureLoader()
-const earthTexture = textureLoader.load('/assets/earthmap.jpg')
+const earthTexture = textureLoader.load('./assets/earthmap.jpg')
 earthTexture.colorSpace = THREE.SRGBColorSpace
 earthTexture.magFilter = THREE.NearestFilter
 
@@ -44,7 +44,7 @@ scene.add(earthMesh)
 
 //text 
 const loader = new FontLoader();
-loader.load('assets/helvetiker_regular.typeface.json', (font) => {
+loader.load('./assets/helvetiker_regular.typeface.json', (font) => {
   const textGeometry = new TextGeometry('Hello World !',
     {
       font: font,
