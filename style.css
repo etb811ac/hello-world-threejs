@@ -2,3 +2,16 @@ body{
   margin: 0;
   overflow: hidden
 }
+
+.get-in-touch{
+  bottom: 10px;
+  display: flex;
+  position: fixed;
+  right: 10px;
+
+}
+
+.get-in-touch svg{
+  width: 30px;
+  color: #fff;
+}
