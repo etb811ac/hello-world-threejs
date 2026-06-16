@@ -3,6 +3,10 @@
 <p align="center">My very first step into 3D on the web: a rotating cube rendered with Three.js. The "Hello World" that kicked off the whole journey.</p>
 
 <p align="center">
+  <a href="https://helloworldthreejs.netlify.app/"><img src="https://img.shields.io/badge/▶%20Live%20Demo-Open-FF4D00?style=for-the-badge" alt="Live Demo"></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white">
   <img src="https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black">
